@@ -1,0 +1,6 @@
+
+use grw1mc60_toyota_petrol
+SELECT `kilometers`,`litres`, FORMAT(`litres`, '##.##'), FORMAT(litres/cost, '##.##'),`dateAdded`, `cost`, cost/litres  FROM `bowserFill` WHERE 1
+
+
+
