@@ -1,0 +1,3 @@
+SELECT  MAX(kilometers) - MIN(kilometers), DATEDIFF(MAX(dateAdded),MIN(dateAdded)),(MAX(kilometers) - MIN(kilometers))/DATEDIFF(MAX(dateAdded),MIN(dateAdded))  FROM bowserFill WHERE 1 ORDER BY  kilometers ASC
+
+
